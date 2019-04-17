@@ -4,12 +4,14 @@ import {
   Route,
   Switch
 } from 'react-router-dom';
+import Header from '../header/Header';
 import Home from '../home/Home';
 
 export default function App() {
   return (
     <Router>
       <>
+        <Header />
         <Switch>
           <Route exact path='/' component={Home} />
         </Switch>
