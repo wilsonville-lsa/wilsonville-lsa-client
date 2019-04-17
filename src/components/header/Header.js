@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css';
+import styles from './Header.css';
 
 export default function Header() {
   return (
@@ -10,7 +10,7 @@ export default function Header() {
       <h2>BAHA'I FAITH</h2>
 
       <nav>
-        <Link activeClassName="active" to="/">Home</Link>
+        <Link activeClassName={styles.active} to="/">Home</Link>
       </nav>
     </>
   );
