@@ -5,11 +5,13 @@ h1, h2 {
 nav {
   border: 5px outset rgb(79, 210, 233);
   background-color: rgb(205, 234, 235);
+  width: 70vw;
+  margin: auto;
 }
 
 a:link, a:visited {
   text-decoration: none;
-  color: black;
+  color: rgb(9, 177, 9);
 }
 
 .active, a:hover {
