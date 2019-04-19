@@ -10,7 +10,8 @@ export default function Header() {
       <h2>BAHA'I FAITH</h2>
 
       <nav>
-        <Link activeClassName={styles.active} to="/">Home</Link>
+        <Link activeclassname={styles.active} to="/">HOME</Link>
+        <Link activeclassname={styles.active} to="/what-bahais-believe">WHAT BAHA'IS BELIEVE</Link>
       </nav>
     </>
   );
