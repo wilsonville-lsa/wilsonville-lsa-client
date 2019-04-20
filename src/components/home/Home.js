@@ -10,9 +10,9 @@ export default function Home() {
       <section>
         <img alt="200th birth design" src="../../../public/assets/200th-birth.png" />
 
-        <div className={styles.national}>
-          <p className={styles.quote}>So powerful is the light of unity that it can illuminate the whole earth. <span>Baha'u'llah</span></p>
-          <img alt="chicago house of worship" src="../../../public/assets/chicago-national-center.jpeg" />
+        <div className={styles.hands}>
+          <img alt="globe with hands" src="../../../public/assets/globe-hands.jpeg" />
+          <p className={styles.quote}>It is not for him to pride himself who loveth his own country, but rather for him who loveth the whole world. The earth is but one country, and mankind its citizens. <span>Bahá’u’lláh</span></p>
         </div>
 
         <div className={styles.world}>
@@ -20,9 +20,9 @@ export default function Home() {
           <p className={styles.quote}>There is one God; mankind is one; the foundations of religion are one. Let us worship Him, and give praise for all His great Prophets and Messengers who have manifested His brightness and glory. <span>Abdu'l-Baha</span></p>
         </div>
 
-        <div className={styles.hands}>
-          <img alt="globe with hands" src="../../../public/assets/globe-hands.jpeg" />
-          <p className={styles.quote}>It is not for him to pride himself who loveth his own country, but rather for him who loveth the whole world. The earth is but one country, and mankind its citizens. <span>Bahá’u’lláh</span></p>
+        <div className={styles.national}>
+          <p className={styles.quote}>So powerful is the light of unity that it can illuminate the whole earth. <span>Baha'u'llah</span></p>
+          <img alt="chicago house of worship" src="../../../public/assets/chicago-national-center.jpeg" />
         </div>
       </section>
     </>

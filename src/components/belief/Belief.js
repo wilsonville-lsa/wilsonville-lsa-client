@@ -1,10 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
+import styles from './Belief.css';
 
 export default function Belief() {
   return (
-    <>
-      <section>
+    <main>
+      <section className={styles.belief}>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/-4oHgOLZA-o" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
         <article>
@@ -26,7 +27,6 @@ export default function Belief() {
             </ul>
             <p>Bahá’ís do not   view these principles as mere statements of vague aspiration—they are understood as matters of immediate and practical concern for individuals, communities, and institutions alike.</p>
           </div>
-          <img alt="leaves of one tree" src="../../../public/assets/leaves-one-tree.jpeg" />
         </article>
 
         <article>
@@ -35,7 +35,6 @@ export default function Belief() {
             <p>Throughout the ages, God has sent Divine Messengers known as Manifestations of God — among them Abraham, Krishna, Zoroaster, Moses, Buddha, Jesus Christ, Muhammad and, in more recent times, the Báb and Bahá’u’lláh — to cultivate humanity’s spiritual, intellectual and moral capacities. Following the coming of a Manifestation of God extraordinary progress occurs in the world. Reaching to the roots of human motivation, His teachings awaken in whole populations capacities to contribute to the advancement of civilization to an extent never before possible.</p>
             <p>Today, we find ourselves at the threshold of the coming of age of the human race.   Passing through different stages, we have collectively traversed our infancy and   childhood. Around the world, human society is being reshaped, and the ultimate trend   is clear: we are witnessing nothing less than the organization of human society as a planetary civilization.</p>
           </div>
-          <img alt="progressive revelation" src="../../../public/assets/progressive-revelation.jpeg" />
         </article>
       </section>
 
@@ -50,7 +49,10 @@ export default function Belief() {
           <li><a href="http://bahaiblog.net/site/" target="_blank" rel="noopener noreferrer">Baha'i Blog</a></li>
           <li><a href="https://www.youtube.com/channel/UC34h-YWYOYwU1USZ6tttFUQ" target="_blank" rel="noopener noreferrer">Baha'i National Center Videos</a></li>
         </ul>
+
+        <img alt="leaves of one tree" src="../../../public/assets/leaves-one-tree.jpeg" />
+        <img alt="progressive revelation" src="../../../public/assets/progressive-revelation.jpeg" />
       </aside>
-    </>
+    </main>
   );
 }

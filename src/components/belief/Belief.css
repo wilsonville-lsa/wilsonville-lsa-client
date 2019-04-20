@@ -1,0 +1,51 @@
+main {
+  width: 90vw;
+}
+
+aside img {
+  width: 300px;
+  margin-top: 10vh;
+}
+
+.belief {
+  margin-top: 10vh;
+  margin-left: 5vw;
+  width: 60vw;
+  float: left;
+  text-align: left;
+}
+
+aside {
+  margin-top: 10vh;
+  width: 20vw;
+  float: right;
+}
+
+ul {
+  text-align: left;
+}
+
+ul li {
+  padding: 1vh;
+}
+
+aside ul li {
+  list-style: none;
+}
+
+section ul li {
+  color: green;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: rgb(9, 177, 9);
+}
+
+a:hover {
+  color: green;
+}
+
+p {
+  font-size: 20px;
+}

@@ -3,6 +3,11 @@ p {
   font-size: 30px;
 }
 
+.welcome {
+  width: 70vw;
+  margin: 5vh auto;
+}
+
 .quote {
   font-style: italic;
 }
@@ -13,18 +18,21 @@ span {
 }
 
 .national, .world, .hands {
-  margin-top: 2vh;
+  clear: both;
+  margin: 10vh auto;
+  padding: 10vh 0;
+  width: 70vw;
 }
 
 .national img {
   float: right;
-  margin-right: 10vw;
+  width: 300px;
 }
 
 .national p {
+  margin-top: 5vh;
   float: left;
-  width: 40vw;
-  margin-left: 7vw;
+  width: 30rem;
 }
 
 .world {
@@ -37,15 +45,20 @@ span {
   margin: auto;
 }
 
+.world img {
+  width: 700px;
+}
+
 .hands img {
   float: left;
   margin-left: 7vw;
   padding-bottom: 2vh;
+  width: 300px;
 }
 
 .hands p {
   float: right;
   margin-right: 10vw;
-  width: 40vw;
+  width: 20rem;
 }
 

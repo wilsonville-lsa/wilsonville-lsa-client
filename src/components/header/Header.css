@@ -9,11 +9,15 @@ nav {
   margin: auto;
 }
 
-a:link, a:visited {
+nav a {
+  margin: 2vh 2vw;
+}
+
+nav a:link, nav a:visited {
   text-decoration: none;
   color: rgb(9, 177, 9);
 }
 
-.active, a:hover {
-  color: white;
+.active, nav a:hover {
+  color: green;
 }
