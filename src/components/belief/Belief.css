@@ -1,5 +1,6 @@
-main {
-  width: 90vw;
+body {
+  text-align: center;
+  margin: auto;
 }
 
 aside img {
@@ -8,15 +9,18 @@ aside img {
 }
 
 .belief {
+  margin: auto;
   margin-top: 10vh;
-  margin-left: 5vw;
-  width: 60vw;
+  margin-left: 14vw;
+  width: 30vw;
   float: left;
   text-align: left;
 }
 
 aside {
+  margin: auto;
   margin-top: 10vh;
+  margin-right: 15vw;
   width: 20vw;
   float: right;
 }
@@ -34,16 +38,16 @@ aside ul li {
 }
 
 section ul li {
-  color: green;
+  color: rgb(9, 177, 9);
 }
 
 a, a:visited {
   text-decoration: none;
-  color: rgb(9, 177, 9);
+  color: green;
 }
 
 a:hover {
-  color: green;
+  color: rgb(9, 177, 9);
 }
 
 p {
