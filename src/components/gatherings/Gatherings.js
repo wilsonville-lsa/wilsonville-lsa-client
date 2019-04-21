@@ -1,9 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
+import styles from './Gatherings.css';
 
 export default function Gatherings() {
   return (
-    <>
+    <main className={styles.Gaths}>
       <p>Checkout some neighboring local Baha'i community gatherings!</p>
 
       <aside>
@@ -14,6 +15,6 @@ export default function Gatherings() {
           <li><a href="http://portlandbahai.org/local-activities/portland/" target="_blank" rel="noopener noreferrer">Events at Portland Baha'i Center</a></li>
         </ul>
       </aside>
-    </>
+    </main>
   );
 }
