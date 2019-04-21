@@ -4,8 +4,10 @@ import styles from './Gatherings.css';
 
 export default function Gatherings() {
   return (
-    <main className={styles.Gaths}>
-      <p>Checkout some neighboring local Baha'i community gatherings!</p>
+    <main className={styles.Gatherings}>
+      <section>
+        <p>Checkout some neighboring local Baha'i community gatherings!</p>
+      </section>
 
       <aside>
         <h2>Other Local Communities</h2>

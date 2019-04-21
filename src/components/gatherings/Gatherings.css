@@ -1,42 +1,42 @@
-.Gaths {
+.Gatherings {
   margin: auto;
   width: 70vw;
-}
 
-.Gaths h2 {
-  padding: 0;
-  margin: 0;
-}
+  h2 {
+    padding: 0;
+    margin: 0;
+  }
 
-.Gaths p {
-  float: left;
-  margin-top: 10vh;
-  width: auto;
-  text-align: left;
-  font-size: 15px;
-}
+  section {
+    float: left;
+    margin-top: 10vh;
+    width: auto;
+    text-align: left;
+    font-size: 15px;
+  }
 
-.Gaths aside {
-  float: right;
-  text-align: left;
-  margin: 10vh auto;
-  width: auto;
-}
+  aside {
+    float: right;
+    text-align: left;
+    margin: 10vh auto;
+    width: auto;
+  }
 
-.Gaths ul {
-  padding: 0;
-  list-style: none;
-}
+  ul {
+    padding: 0;
+    list-style: none;
 
-.Gaths ul li {
-  padding: 1vh;
-}
+    li {
+      padding: 1vh;
+    }
+  }
 
-.Gaths a, .Gaths a:visited {
-  text-decoration: none;
-  color: green;
-}
+  a, a:visited {
+    text-decoration: none;
+    color: green;
+  }
 
-.Gaths a:hover {
-  color: rgb(9, 177, 9);
+  a:hover {
+    color: rgb(9, 177, 9);
+  }
 }

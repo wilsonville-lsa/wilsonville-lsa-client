@@ -1,5 +1,12 @@
-.Home p {
-  font-size: 30px;
+.Home {
+  p {
+    font-size: 30px;
+  }
+
+  span {
+    font-size: 20px;
+    margin-left: 20px;
+  }
 }
 
 .welcome {
@@ -13,11 +20,6 @@
   color: green;
 }
 
-.Home span {
-  font-size: 20px;
-  margin-left: 20px;
-}
-
 .national, .world, .hands {
   clear: both;
   margin: 10vh auto;
@@ -25,41 +27,44 @@
   width: 70vw;
 }
 
-.national img {
-  float: right;
-  width: 300px;
-}
+.national {
+  img {
+    float: right;
+    width: 300px;
+  }
 
-.national p {
-  margin-top: 5vh;
-  float: left;
-  width: 30rem;
+  p {
+    margin-top: 5vh;
+    float: left;
+    width: 30rem;
+  }
 }
 
 .world {
   clear: both;
   padding-top: 2vh;
+
+  p {
+    width: 70vw;
+    margin: auto;
+  }
+
+  img {
+    width: 700px;
+  }
 }
 
-.world p {
-  width: 70vw;
-  margin: auto;
-}
+.hands {
+  img {
+    float: left;
+    margin-left: 7vw;
+    padding-bottom: 2vh;
+    width: 300px;
+  }
 
-.world img {
-  width: 700px;
+  p {
+    float: right;
+    margin-right: 10vw;
+    width: 20rem;
+  }
 }
-
-.hands img {
-  float: left;
-  margin-left: 7vw;
-  padding-bottom: 2vh;
-  width: 300px;
-}
-
-.hands p {
-  float: right;
-  margin-right: 10vw;
-  width: 20rem;
-}
-
