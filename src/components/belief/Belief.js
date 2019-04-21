@@ -33,7 +33,7 @@ export default function Belief() {
           <div>
             <h1>Progressive Revelation</h1>
             <p>Throughout the ages, God has sent Divine Messengers known as Manifestations of God — among them Abraham, Krishna, Zoroaster, Moses, Buddha, Jesus Christ, Muhammad and, in more recent times, the Báb and Bahá’u’lláh — to cultivate humanity’s spiritual, intellectual and moral capacities. Following the coming of a Manifestation of God extraordinary progress occurs in the world. Reaching to the roots of human motivation, His teachings awaken in whole populations capacities to contribute to the advancement of civilization to an extent never before possible.</p>
-            <p>Today, we find ourselves at the threshold of the coming of age of the human race.   Passing through different stages, we have collectively traversed our infancy and   childhood. Around the world, human society is being reshaped, and the ultimate trend   is clear: we are witnessing nothing less than the organization of human society as a planetary civilization.</p>
+            <p>Today, we find ourselves at the threshold of the coming of age of the human race. Passing through different stages, we have collectively traversed our infancy and childhood. Around the world, human society is being reshaped, and the ultimate trend is clear: we are witnessing nothing less than the organization of human society as a planetary civilization.</p>
           </div>
         </article>
       </section>
