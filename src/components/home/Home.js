@@ -4,7 +4,7 @@ import styles from './Home.css';
 
 export default function Home() {
   return (
-    <>
+    <main className={styles.Home}>
       <p className={styles.welcome}>Welcome to the website of the Wilsonville Baha'i Community.  We are a community devoted to the cause of the oneness of humanity and to promoting love and concord among all His children.  Our belief is firmly rooted in the concept of unity in diversity.</p>
 
       <section>
@@ -25,6 +25,6 @@ export default function Home() {
           <img alt="chicago house of worship" src="../../../public/assets/chicago-national-center.jpeg" />
         </div>
       </section>
-    </>
+    </main>
   );
 }
