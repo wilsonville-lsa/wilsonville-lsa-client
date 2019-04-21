@@ -13,6 +13,7 @@ export default function Header() {
         <Link activeclassname={styles.active} to="/">HOME</Link>
         <Link activeclassname={styles.active} to="/what-bahais-believe">WHAT BAHA'IS BELIEVE</Link>
         <Link to="/gatherings">JOIN OUR GATHERINGS</Link>
+        <Link to="/contact">CONTACT</Link>
       </nav>
     </>
   );

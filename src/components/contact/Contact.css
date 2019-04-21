@@ -1,0 +1,63 @@
+.Contact {
+  width: 70vw;
+  margin: auto;
+  padding: 10vh;
+
+  aside {
+    float: left;
+    text-align: left;
+
+    p {
+      padding: 0;
+      margin: 1vh;
+    }
+  }
+
+  section {
+    float: right;
+    width: 40vw;
+
+    p {
+      text-align: center;
+    }
+
+    form {
+      text-align: left;
+      
+      label {
+        display: block;
+        margin-top: 2vh;
+        color: green;
+      }
+
+      input {
+        margin-left: 5rem;
+      }
+
+      textarea {
+        vertical-align: text-top;
+        margin-left: 3.5rem;
+      }
+
+      span {
+        color: red;
+      }
+
+      button {
+        margin-top: 5vh;
+        padding: 0.5rem;
+        color: green;
+      }
+
+      button:hover {
+        color: rgb(9, 177, 9);
+      }
+    }
+  }
+
+  h3 {
+    margin: 0;
+    margin-bottom: 5vh;
+    text-align: center;
+  }
+}

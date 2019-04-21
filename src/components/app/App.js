@@ -8,6 +8,7 @@ import Header from '../header/Header';
 import Home from '../home/Home';
 import Belief from '../belief/Belief';
 import Gatherings from '../gatherings/Gatherings';
+import Contact from '../contact/Contact';
 import './App.css';
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
           <Route exact path='/' component={Home} />
           <Route exact path='/what-bahais-believe' component={Belief} />
           <Route exact path='/gatherings' component={Gatherings} />
+          <Route exact path='/contact' component={Contact} />
         </Switch>
       </>
     </Router>
