@@ -8,8 +8,8 @@ describe('api', () => {
       subject: 'Test',
       html: '<h1>Test email using ethereal!!</h1>'
     })
-      .then(({ previewUrl }) => {
-        expect(previewUrl).toBeDefined();
+      .then(({ info }) => {
+        expect(info).toBeDefined();
         done();
       });
   });
