@@ -13,7 +13,7 @@ export default function Contact() {
       </aside>
 
       <section>
-        <form action="mailto:shabavid@gmail.com" method="post" encType="text/plain">
+        <form>
           <p>If you wish to connect with your local Baha'i community, please use the form below to send us a message.</p>
           <label>
             Name:<span>*</span>
