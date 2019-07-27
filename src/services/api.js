@@ -1,3 +1,4 @@
+require('dotenv').config();
 import { post } from './request';
 
 export const sendEmail = message => {
