@@ -1,15 +1,27 @@
 import { sendEmail } from './api';
 
+jest.mock('./request.js');
+
 describe('api', () => {
   it('sends email', done => {
-    return sendEmail({
-      from: 'Test Email',
-      to: 'ethereal@email.com',
-      subject: 'Test',
-      html: '<h1>Test email using ethereal!!</h1>'
-    })
-      .then(({ info }) => {
-        expect(info).toBeDefined();
+    const message = {
+      name: 'Interested Person',
+      email: 'interested@email.com',
+      text: 'Give me some info!'
+    };
+
+    return sendEmail(message)
+      .then(request => {
+        expect(request).toEqual({
+          path: '/contact',
+          body: {
+            from: 'Interested Person <interested@email.com>',
+            to: 'wilsonvillebahai@gmail.com',
+            subject: 'Inquiry',
+            text: 'Give me some info!'
+          }
+        });
+        
         done();
       });
   });

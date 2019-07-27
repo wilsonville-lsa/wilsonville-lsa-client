@@ -1,8 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './Contact.css';
 
-export default function Contact() {
+function ContactForm({ message, handleChange, handleSubmit }) {
   return (
     <main className={styles.Contact}>
       <aside>
@@ -13,23 +14,19 @@ export default function Contact() {
       </aside>
 
       <section>
-        <form>
+        <form onSubmit={handleSubmit.bind(null, message)}>
           <p>If you wish to connect with your local Baha'i community, please use the form below to send us a message.</p>
           <label>
             Name:<span>*</span>
-            <input type="text" required/>
+            <input name="name" type="text" onChange={handleChange} required/>
           </label>
           <label>
             Email:<span>*</span>
-            <input type="text" required/>
+            <input name="email" type="text" onChange={handleChange} required/>
           </label>
           <label>
             Message:<span>*</span>
-            <textarea required/>
-          </label>
-          <label>
-            Phone:
-            <input type="text"/>
+            <textarea name="text" onChange={handleChange} required/>
           </label>
           <label>
             <button type="submit">Submit</button>
@@ -39,3 +36,11 @@ export default function Contact() {
     </main>
   );
 }
+
+ContactForm.propTypes = {
+  message: PropTypes.object.isRequired,
+  handleChange: PropTypes.func.isRequired,
+  handleSubmit: PropTypes.func.isRequired
+};
+
+export default ContactForm;
