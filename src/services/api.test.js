@@ -1,3 +1,4 @@
+require('dotenv').config();
 import { sendEmail } from './api';
 
 jest.mock('./request.js');
@@ -16,7 +17,7 @@ describe('api', () => {
           path: '/contact',
           body: {
             from: 'Interested Person <interested@email.com>',
-            to: process.env.EMAIL_USER,
+            to: expect.any(String),
             subject: 'Inquiry',
             text: 'Give me some info!'
           }

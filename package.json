@@ -2,7 +2,7 @@
   "name": "wilsonville-lsa-client",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "webpack -p",
     "lint": "eslint .",
@@ -28,7 +28,6 @@
   },
   "homepage": "https://github.com/Shaba9/app-me-client#readme",
   "dependencies": {
-    "dotenv": "^8.0.0",
     "nodemailer": "^6.3.0",
     "normalize.css": "^8.0.1",
     "promise-middleware-redux": "^1.0.5",
@@ -55,6 +54,7 @@
     "clean-webpack-plugin": "^2.0.1",
     "copy-webpack-plugin": "^5.0.2",
     "css-loader": "^2.1.1",
+    "dotenv": "^8.0.0",
     "dotenv-webpack": "^1.7.0",
     "eslint": "^5.14.0",
     "eslint-plugin-babel": "^5.3.0",
