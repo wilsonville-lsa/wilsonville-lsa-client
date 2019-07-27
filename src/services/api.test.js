@@ -19,7 +19,10 @@ describe('api', () => {
             from: 'Interested Person <interested@email.com>',
             to: expect.any(String),
             subject: 'Inquiry',
-            text: 'Give me some info!'
+            html: `
+    <p><strong>Name: Interested Person</strong></p>
+    <p><strong>Email: interested@email.com</strong></p>
+    <p><strong>Message:</strong><br />Give me some info!</p>`
           }
         });
         

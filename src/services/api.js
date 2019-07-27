@@ -5,7 +5,10 @@ export const sendEmail = message => {
     from: `${message.name} <${message.email}>`,
     to: process.env.EMAIL_USER,
     subject: 'Inquiry',
-    text: message.text
+    html: `
+    <p><strong>Name: ${message.name}</strong></p>
+    <p><strong>Email: ${message.email}</strong></p>
+    <p><strong>Message:</strong><br />${message.text}</p>`
   };
 
   return post('/contact', mailOptions);
