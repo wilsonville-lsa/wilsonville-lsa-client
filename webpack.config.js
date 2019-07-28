@@ -1,5 +1,7 @@
 const HtmlPlugin = require('html-webpack-plugin');
 const CleanPlugin = require('clean-webpack-plugin');
+const DotenvPlugin = require('dotenv-webpack');
+const CopyPlugin = require('copy-webpack-plugin');
 
 // eslint-disable-next-line no-undef
 module.exports = {
@@ -13,6 +15,10 @@ module.exports = {
     historyApiFallback: true
   },
   plugins: [
+    new CopyPlugin([{
+      from: 'public'
+    }]),
+    new DotenvPlugin({ systemvars: true }),
     new HtmlPlugin({ template: './src/index.html' }),
     new CleanPlugin()
   ],
@@ -25,7 +31,7 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env', '@babel/preset-react'],
-            plugins: ['@babel/plugin-proposal-class-properties'],
+            plugins: ['@babel/plugin-proposal-class-properties', 'babel-plugin-styled-components'],
             cacheDirectory: true
           }
         }

@@ -4,12 +4,12 @@ import {
   Route,
   Switch
 } from 'react-router-dom';
+import './App.css';
 import Header from '../header/Header';
 import Home from '../home/Home';
 import Belief from '../belief/Belief';
 import Gatherings from '../gatherings/Gatherings';
-import Contact from '../contact/Contact';
-import './App.css';
+import Contact from '../../containers/contact/Contact';
 
 export default function App() {
   return (

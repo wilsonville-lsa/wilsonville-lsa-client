@@ -1,20 +1,38 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header matches snapshot for Header 1`] = `
-Array [
+<header>
   <h1>
     Wilsonville Baha'i Community
-  </h1>,
+  </h1>
   <h2>
     BAHA'I FAITH
-  </h2>,
+  </h2>
   <nav>
     <a
       href="/"
       onClick={[Function]}
     >
-      Home
+      HOME
     </a>
-  </nav>,
-]
+    <a
+      href="/what-bahais-believe"
+      onClick={[Function]}
+    >
+      WHAT BAHA'IS BELIEVE
+    </a>
+    <a
+      href="/gatherings"
+      onClick={[Function]}
+    >
+      JOIN OUR GATHERINGS
+    </a>
+    <a
+      href="/contact"
+      onClick={[Function]}
+    >
+      CONTACT
+    </a>
+  </nav>
+</header>
 `;
