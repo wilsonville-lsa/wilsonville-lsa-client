@@ -15,15 +15,7 @@ describe('api', () => {
       .then(request => {
         expect(request).toEqual({
           path: '/contact',
-          body: {
-            from: 'Interested Person <interested@email.com>',
-            to: expect.any(String),
-            subject: 'Inquiry',
-            html: `
-    <p><strong>Name: Interested Person</strong></p>
-    <p><strong>Email: interested@email.com</strong></p>
-    <p><strong>Message:</strong><br />Give me some info!</p>`
-          }
+          body: message
         });
         
         done();
