@@ -14,6 +14,11 @@ function ContactForm({ message, handleChange, handleSubmit, error, confirmation 
       </aside>
 
       <section>
+
+        {error && <p className={styles.red}>{error}</p>}
+
+        {confirmation && <p className={styles.green}>Your message has been sent! We will respond shortly. A confirmation email has been sent to the provided email. If you have not received a confirmation, please re-send your message. Thank you!</p>}
+        
         <form onSubmit={handleSubmit.bind(null, message)}>
           <p>If you wish to connect with your local Baha'i community, please use the form below to send us a message.</p>
           <label>
@@ -33,10 +38,6 @@ function ContactForm({ message, handleChange, handleSubmit, error, confirmation 
           </label>
         </form>
       </section>
-
-      {error && <p className={styles.red}>{error}</p>}
-
-      {confirmation && <p className={styles.green}>Your message has been sent! We will respond shortly. A confirmation email has been sent to the provided email. If you have not received a confirmation, please re-send your message. Thank you!</p>}
     </main>
   );
 }

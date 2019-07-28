@@ -19,6 +19,7 @@ exports[`Contact Form matches snapshot for ContactForm 1`] = `
     </p>
   </aside>
   <section>
+    
     <form
       onSubmit={[Function]}
     >
@@ -75,7 +76,6 @@ exports[`Contact Form matches snapshot for ContactForm 1`] = `
       </label>
     </form>
   </section>
-  
 </main>
 `;
 
@@ -98,6 +98,12 @@ exports[`Contact Form matches snapshot for ContactForm with confirmation 1`] = `
     </p>
   </aside>
   <section>
+    
+    <p
+      className="green"
+    >
+      Your message has been sent! We will respond shortly. A confirmation email has been sent to the provided email. If you have not received a confirmation, please re-send your message. Thank you!
+    </p>
     <form
       onSubmit={[Function]}
     >
@@ -154,12 +160,6 @@ exports[`Contact Form matches snapshot for ContactForm with confirmation 1`] = `
       </label>
     </form>
   </section>
-  
-  <p
-    className="green"
-  >
-    Your message has been sent! We will respond shortly. A confirmation email has been sent to the provided email. If you have not received a confirmation, please re-send your message. Thank you!
-  </p>
 </main>
 `;
 
@@ -182,6 +182,11 @@ exports[`Contact Form matches snapshot for ContactForm with error 1`] = `
     </p>
   </aside>
   <section>
+    <p
+      className="red"
+    >
+      Invalid email address
+    </p>
     <form
       onSubmit={[Function]}
     >
@@ -238,10 +243,5 @@ exports[`Contact Form matches snapshot for ContactForm with error 1`] = `
       </label>
     </form>
   </section>
-  <p
-    className="red"
-  >
-    Invalid email address
-  </p>
 </main>
 `;
