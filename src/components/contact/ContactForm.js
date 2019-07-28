@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './Contact.css';
+import styles from './ContactForm.css';
 
-function ContactForm({ message, handleChange, handleSubmit }) {
+function ContactForm({ message, handleChange, handleSubmit, error, confirmation }) {
   return (
     <main className={styles.Contact}>
       <aside>
@@ -17,15 +17,15 @@ function ContactForm({ message, handleChange, handleSubmit }) {
         <form onSubmit={handleSubmit.bind(null, message)}>
           <p>If you wish to connect with your local Baha'i community, please use the form below to send us a message.</p>
           <label>
-            Name:<span>*</span>
+            Name:<span className={styles.red}>*</span>
             <input name="name" type="text" onChange={handleChange} required/>
           </label>
           <label>
-            Email:<span>*</span>
+            Email:<span className={styles.red}>*</span>
             <input name="email" type="text" onChange={handleChange} required/>
           </label>
           <label>
-            Message:<span>*</span>
+            Message:<span className={styles.red}>*</span>
             <textarea name="text" onChange={handleChange} required/>
           </label>
           <label>
@@ -33,6 +33,10 @@ function ContactForm({ message, handleChange, handleSubmit }) {
           </label>
         </form>
       </section>
+
+      {error && <p className={styles.red}>{error}</p>}
+
+      {confirmation && <p className={styles.green}>Your message has been sent! We will respond shortly. A confirmation email has been sent to the provided email. If you have not received a confirmation, please re-send your message. Thank you!</p>}
     </main>
   );
 }
@@ -40,7 +44,9 @@ function ContactForm({ message, handleChange, handleSubmit }) {
 ContactForm.propTypes = {
   message: PropTypes.object.isRequired,
   handleChange: PropTypes.func.isRequired,
-  handleSubmit: PropTypes.func.isRequired
+  handleSubmit: PropTypes.func.isRequired,
+  error: PropTypes.string,
+  confirmation: PropTypes.bool.isRequired
 };
 
 export default ContactForm;

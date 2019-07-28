@@ -5,7 +5,8 @@ import {
 
 const initialState = {
   message: {},
-  error: ''
+  error: '',
+  confirmation: false
 };
 
 export default function reducer(state = initialState, { payload, type }) {
@@ -18,7 +19,8 @@ export default function reducer(state = initialState, { payload, type }) {
     case SEND_MESSAGE:
       return {
         message: {},
-        error: payload.error || ''
+        error: payload.error || '',
+        confirmation: !payload.error ? true : false
       };
     default:
       return state;

@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact Form matches snapshot for ContactForm 1`] = `
+<main
+  className="Contact"
+>
+  <aside>
+    <h3>
+      Mail
+    </h3>
+    <p>
+      Wilsonville Baha'i Community
+    </p>
+    <p>
+      PO Box 2641
+    </p>
+    <p>
+      Wilsonville, OR 97070
+    </p>
+  </aside>
+  <section>
+    <form
+      onSubmit={[Function]}
+    >
+      <p>
+        If you wish to connect with your local Baha'i community, please use the form below to send us a message.
+      </p>
+      <label>
+        Name:
+        <span
+          className="red"
+        >
+          *
+        </span>
+        <input
+          name="name"
+          onChange={[MockFunction]}
+          required={true}
+          type="text"
+        />
+      </label>
+      <label>
+        Email:
+        <span
+          className="red"
+        >
+          *
+        </span>
+        <input
+          name="email"
+          onChange={[MockFunction]}
+          required={true}
+          type="text"
+        />
+      </label>
+      <label>
+        Message:
+        <span
+          className="red"
+        >
+          *
+        </span>
+        <textarea
+          name="text"
+          onChange={[MockFunction]}
+          required={true}
+        />
+      </label>
+      <label>
+        <button
+          type="submit"
+        >
+          Submit
+        </button>
+      </label>
+    </form>
+  </section>
+  
+</main>
+`;
+
+exports[`Contact Form matches snapshot for ContactForm with confirmation 1`] = `
+<main
+  className="Contact"
+>
+  <aside>
+    <h3>
+      Mail
+    </h3>
+    <p>
+      Wilsonville Baha'i Community
+    </p>
+    <p>
+      PO Box 2641
+    </p>
+    <p>
+      Wilsonville, OR 97070
+    </p>
+  </aside>
+  <section>
+    <form
+      onSubmit={[Function]}
+    >
+      <p>
+        If you wish to connect with your local Baha'i community, please use the form below to send us a message.
+      </p>
+      <label>
+        Name:
+        <span
+          className="red"
+        >
+          *
+        </span>
+        <input
+          name="name"
+          onChange={[MockFunction]}
+          required={true}
+          type="text"
+        />
+      </label>
+      <label>
+        Email:
+        <span
+          className="red"
+        >
+          *
+        </span>
+        <input
+          name="email"
+          onChange={[MockFunction]}
+          required={true}
+          type="text"
+        />
+      </label>
+      <label>
+        Message:
+        <span
+          className="red"
+        >
+          *
+        </span>
+        <textarea
+          name="text"
+          onChange={[MockFunction]}
+          required={true}
+        />
+      </label>
+      <label>
+        <button
+          type="submit"
+        >
+          Submit
+        </button>
+      </label>
+    </form>
+  </section>
+  
+  <p
+    className="green"
+  >
+    Your message has been sent! We will respond shortly. A confirmation email has been sent to the provided email. If you have not received a confirmation, please re-send your message. Thank you!
+  </p>
+</main>
+`;
+
+exports[`Contact Form matches snapshot for ContactForm with error 1`] = `
+<main
+  className="Contact"
+>
+  <aside>
+    <h3>
+      Mail
+    </h3>
+    <p>
+      Wilsonville Baha'i Community
+    </p>
+    <p>
+      PO Box 2641
+    </p>
+    <p>
+      Wilsonville, OR 97070
+    </p>
+  </aside>
+  <section>
+    <form
+      onSubmit={[Function]}
+    >
+      <p>
+        If you wish to connect with your local Baha'i community, please use the form below to send us a message.
+      </p>
+      <label>
+        Name:
+        <span
+          className="red"
+        >
+          *
+        </span>
+        <input
+          name="name"
+          onChange={[MockFunction]}
+          required={true}
+          type="text"
+        />
+      </label>
+      <label>
+        Email:
+        <span
+          className="red"
+        >
+          *
+        </span>
+        <input
+          name="email"
+          onChange={[MockFunction]}
+          required={true}
+          type="text"
+        />
+      </label>
+      <label>
+        Message:
+        <span
+          className="red"
+        >
+          *
+        </span>
+        <textarea
+          name="text"
+          onChange={[MockFunction]}
+          required={true}
+        />
+      </label>
+      <label>
+        <button
+          type="submit"
+        >
+          Submit
+        </button>
+      </label>
+    </form>
+  </section>
+  <p
+    className="red"
+  >
+    Invalid email address
+  </p>
+</main>
+`;

@@ -1,10 +1,12 @@
 import { connect } from 'react-redux';
 import ContactForm from '../../components/contact/ContactForm';
-import { getMessage } from '../../selectors/contact';
+import { getMessage, getError, getConfirmation } from '../../selectors/contact';
 import { updateMessage, sendMessage } from '../../actions/contact';
 
 const mapStateToProps = state => ({
-  message: getMessage(state)
+  message: getMessage(state),
+  error: getError(state),
+  confirmation: getConfirmation(state)
 });
 
 const mapDispatchToProps = dispatch => ({

@@ -39,8 +39,12 @@
         margin-left: 3.5rem;
       }
 
-      span {
+      .red {
         color: red;
+      }
+
+      .green {
+        color: green;
       }
 
       button {
