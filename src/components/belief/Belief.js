@@ -50,8 +50,8 @@ export default function Belief() {
           <li><a href="https://www.youtube.com/channel/UC34h-YWYOYwU1USZ6tttFUQ" target="_blank" rel="noopener noreferrer">Baha'i National Center Videos</a></li>
         </ul>
 
-        <img alt="leaves of one tree" src="../../../public/assets/leaves-one-tree.jpeg" />
-        <img alt="progressive revelation" src="../../../public/assets/progressive-revelation.jpeg" />
+        <img alt="leaves of one tree" src="../../../dist/assets/leaves-one-tree.jpeg" />
+        <img alt="progressive revelation" src="../../../dist/assets/progressive-revelation.jpeg" />
       </aside>
     </main>
   );
