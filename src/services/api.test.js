@@ -15,7 +15,7 @@ describe('api', () => {
       .then(request => {
         expect(request).toEqual({
           path: '/contact',
-          body: message
+          body: { message }
         });
         
         done();

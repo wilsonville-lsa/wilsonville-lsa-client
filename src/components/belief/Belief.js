@@ -50,8 +50,9 @@ export default function Belief() {
           <li><a href="https://www.youtube.com/channel/UC34h-YWYOYwU1USZ6tttFUQ" target="_blank" rel="noopener noreferrer">Baha'i National Center Videos</a></li>
         </ul>
 
-        <img alt="leaves of one tree" src="../../../dist/assets/leaves-one-tree.jpeg" />
-        <img alt="progressive revelation" src="../../../dist/assets/progressive-revelation.jpeg" />
+        <img alt="leaves of one tree" src="https://lh3.googleusercontent.com/ornvXvnehDObJso6k_Yvl3RDwfwVPvBlXy9gIoA9JFbUioQ6ZtU0kCpcvZx1j-_Ju82c0iVZ8ZGRD7HFUNWittD5WQtRmKwqASzIGZA7C_yabuhch_2DlQCgbt4Ab-HJ4_62xhsXxvOxzpNcmlCCZIq3q91hlOFlnC6pEk8rrVk3iq55gUrvhivFOUF0cuIO86E3yTIIq184xJagx0jSTIobmGE0kHv-HG8pC-zZRiMZC72RL7MddTcApnFqj5wI4QDbaP8kU3KIiDpx6K2KIFjjPk4FrZqa8E8n_60bMqpGQEz82gEbyjjTBCSZe28Uo4UwJpPJ2gud4eysDed0UeDlcOIBNq6wPoyZnL_kilb7BaCWT0R6-EV14h-x2iU7jyTcXIQEtkdDZ1WR2LATniGkNQo5CjZiQpvzm5iaSkDLgSEHZHJVSrv5D_yBy-RM9xyu0BXzLYKeznd6xPMwEo6mVWS1YMaQAk_evg1YsYwkOmhH7ZjZRQANer36t_p1-WxkG6Iqx-Q_kF1fH34vMg_MfWVBlu1Ie0QAfIFrW4apX8G5WEht_y9MK_2mpAmgVzuIsUbf1W3RLa3n4rtIW0QPtVads7HZmo14om0mKFKZ2wn0zgmygC0kFn-daGU9Z5jRX6KBLDWauRR4W2nQtN0eMOW8iA=w363-h609-no" />
+        
+        <img alt="progressive revelation" src="https://lh3.googleusercontent.com/Om3fZqSFnzHQ-w275e-BNz0uTu0PgvB1nHaeZ6hDa2Wqm1KIt5iH2b7uIs2y-xhClwMklNFy7iUMCe4mjDE3XoCSxH-xwVcAHPaPgacMfhiWOv0yYuGfMPq-Kg_HMsbEhpP2et7_LFe3J0WJFfhNFxhZNSiSfwtFpczpKDrd06RWG4VxUxS4q_R_N3P35AWxIyVjBvDfNYyuccjdV817_jXzRIRDg6nutTyUTJtLjp6tCfoW2kwgaewMGL85a_LBX7kRq0o3OmIxqC2jER0x5f1jef-FT7Rj1bk9A6P6ZgafYV_tjaIhPgMxV6n7YFRPty9Q5_mTvSpyQVufCpA28sjZRsYKfcUrYdRPKdqeapMCXE6zXKsbJWauvEtEyMRhwX5ubuzSfRvsH9Te3rTc5Ax-bk8gh7l2pTZZ7kjgl10me9nKRP-ph3ltyL4XAovQXQO4XG1N2lP3eSACZWnXzFMNCpqkUE4Xsn79Krajeg3FympwfQVYEsBQDfq1reRX1pot8Ay4PcQGKYspj9mD0HwBKakYi2_mN3uz8K7F4I4zWbp3X7Gp1Z7jlcT_ipmwtSuL3D3qV4yQexDtrUMqywbCVoBP2HqyeilCnNTXdFcj1VxB56w7xrjyJdLh0l3ysWhXE2qT_ueRmq_dRd24wa-qXYTtkg=s609-no" />
       </aside>
     </main>
   );
